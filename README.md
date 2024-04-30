@@ -7,7 +7,7 @@ C99
 ## Installation 
 Include my-malloc.h in the user program.
 ```
-include "myMalloc.h"
+#include "myMalloc.h"
 ```
 Compile and run the program. This is a sample Makefile:
 ```
