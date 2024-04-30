@@ -39,7 +39,7 @@ flag: version to use
 Output
 0 if normal. 1 if fails.
 
-## void *my_malloc(int size)
+### void *my_malloc(int size)
 my_malloc allocates a chunk of memory.
 
 Input
@@ -48,7 +48,7 @@ size: number of bits to be allocated from the shared pool of memory
 Output
 pointer to the allocated memory chunk
 
-## void my_free(void *ptr)
+### void my_free(void *ptr)
 my_free frees the allocated memory and returns it to the memory pool.
 
 Input
