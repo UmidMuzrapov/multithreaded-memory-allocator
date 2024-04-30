@@ -11,16 +11,16 @@ Include my-malloc.h in the user program.
 ```
 Compile and run the program. This is a sample Makefile:
 ```
-main:	main.o myMalloc.o myMalloc-helper.o
+main: main.o myMalloc.o myMalloc-helper.o
 	gcc -o main main.o myMalloc.o myMalloc-helper.o -lpthread
 
 main.o:	driver.c myMalloc.h
 	gcc -c driver.c
 
-myMalloc.o:	myMalloc.c myMalloc.h myMalloc-helper.h
+myMalloc.o: myMalloc.c myMalloc.h myMalloc-helper.h
 	gcc -c myMalloc.c
 
-myMalloc-helper.o:	myMalloc-helper.c myMalloc-helper.h
+myMalloc-helper.o: myMalloc-helper.c myMalloc-helper.h
 	gcc -c myMalloc-helper.c
 
 clean:
