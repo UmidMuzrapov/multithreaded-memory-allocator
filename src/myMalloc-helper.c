@@ -1,10 +1,6 @@
 /**
  * @author Umid Muzrapov
- * Course: CS422
- * Programming Assignment 2 Helper Source
  * Instructor: David Lowenthal
- * TA: Makayla Bennett
- * Due Date: April 11th at 8 am.
  *
  * Description: The source contains helper code for my_malloc.c
  *
