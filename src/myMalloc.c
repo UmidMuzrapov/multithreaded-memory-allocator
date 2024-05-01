@@ -4,11 +4,7 @@
 
 /**
  * @author Umid Muzrapov
- * Course: CS422
- * Programming Assignment 2
  * Instructor: David Lowenthal
- * TA: Makayla Bennett
- * Due Date: April 11th at 8 am.
  *
  * Description: The program implements a thread-safe malloc and free.
  * In addition my_malloc and my_free, it offers my_init(numThreads, flag).
