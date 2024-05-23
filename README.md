@@ -1,5 +1,5 @@
 ## Thread-Safe Memory Allocation
-The program implements thread-safe memory management in C. The user program can opt for coarse-grain and and fin-grain versions.
+The program implements thread-safe memory management in C. The user program can opt for coarse-grained and and fine-grained versions.
 
 ## Requirements
 C99
