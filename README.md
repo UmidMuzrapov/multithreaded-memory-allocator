@@ -32,31 +32,31 @@ clean:
 Using my_init API, the user program specifies the number of threads that will use the memory pool and the version. There are two versions that the user can use coarse-grain and fine grain.
 Any user program must call my_init before creating threads or invoking my_malloc or my_free. 
 
-Input
+#### Input
 
 num_threads: number of cores
 
 flag: version to use
 
-Output
+#### Output
 
 0 if normal. 1 if fails.
 
 ### void *my_malloc(int size)
 my_malloc allocates a chunk of memory.
 
-Input
+#### Input
 
 size: number of bits to be allocated from the shared pool of memory
 
-Output
+#### Output
 
 pointer to the allocated memory chunk
 
 ### void my_free(void *ptr)
 my_free frees the allocated memory and returns it to the memory pool.
 
-Input
+#### Input
 
 ptr: pointer to the chunk that needs to be deallocated
 
